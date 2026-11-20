@@ -1,13 +1,21 @@
-env/
-venv/
-.venv/
+# Python
 __pycache__/
 *.py[cod]
-*.class
-db.sqlite3
-/media/
-/staticfiles/
-.env
+.venv/
+venv/
+*.sqlite3
+
+# Node
+node_modules/
+package-lock.json
+
+# Django
+staticfiles/
+media/
+
+# IDE
 .vscode/
 .idea/
+
+# OS
 .DS_Store
